@@ -57,7 +57,7 @@ option, like [here](https://stackoverflow.com/posts/23701140/revisions)? Why rei
 It's good if you know how many lines in your source file and you just divide the total number of lines in a source file by number of files you want to produce. 
 But the tool allows you just specify the number of lines per batch (portion of data written to compressed file) and don't think about calculations.
 
-**Q:** What is faster - gzip and upload with aws cli or use the tool?
+**Q:** What is faster - gzip and upload with aws cli or use the tool?    
 **A:** The tool is a little bit faster:
 ```
 ll ~/Downloads/hmnist_28_28_RGB.csv

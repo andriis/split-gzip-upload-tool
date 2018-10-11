@@ -16,6 +16,7 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     install_requires=requirements,
+    packages=setuptools.find_packages(),
     entry_points={
         'console_scripts': [
             'split-gzip-upload = split_gzip_upload.tool:main',
